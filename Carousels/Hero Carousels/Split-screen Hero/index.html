@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split-screen hero slider</title>
+    <link rel="stylesheet" href="/slick/slick-theme.css">
+    <link rel="stylesheet" href="/slick/slick.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="o-split-slider">
+        <div class="o-slider o-slider__left">
+            <div class="o-slide">
+                <div class="slide-content content-left" style="background-image: url(https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)"></div>
+            </div>
+            <div class="o-slide">
+                <div class="slide-content content-left" style="background-image: url(https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)"></div>
+            </div>
+            <div class="o-slide" >
+                <div class="slide-content content-left" style="background-image: url(https://images.pexels.com/photos/2411914/pexels-photo-2411914.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)">
+                    <div class="bg-video">
+                        <video class="bg-video__content" autoplay muted loop>
+                            <source src="img/tiger.mp4" type="video/mp4">
+                            <!-- <source src="img/video.webm" type="video/webm"> -->
+                            Your browser is not supported!
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="o-slider o-slider__right">
+            <div class="o-slide" >
+                <div class="slide-content content-right">
+                    <h1>Slide title here</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla eaque facilis soluta fugiat! Velit reiciendis, numquam asperiores laboriosam fuga sint deserunt quidem sunt beatae aspernatur at iure, nesciunt doloremque.</p>
+                    <button class="btn btn-background-slide">Background Slide</button>
+                </div>
+            </div>
+            <div class="o-slide">
+                <div class="slide-content content-right">
+                    <h1>Another slide</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla eaque facilis soluta fugiat! Velit reiciendis, numquam asperiores laboriosam fuga sint deserunt quidem sunt beatae aspernatur at iure, nesciunt doloremque.</p>
+                    <button class="btn btn-background-slide">Background Slide</button>
+                </div>
+            </div>
+            <div class="o-slide">
+                <div class="slide-content content-right">
+                    <h1>And a video slide!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla eaque facilis soluta fugiat! Velit reiciendis, numquam asperiores laboriosam fuga sint deserunt quidem sunt beatae aspernatur at iure, nesciunt doloremque.</p>
+                    <button class="btn btn-background-slide">Background Slide</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/slick/slick.js"></script>
+    <script src="/slider.js"></script>
+</body>
+</html>
